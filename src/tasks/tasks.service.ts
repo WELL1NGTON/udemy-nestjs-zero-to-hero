@@ -29,4 +29,16 @@ export class TasksService {
 
     return task;
   }
+
+  removeTask(id: string): Task | null {
+    const index = this.tasks.findIndex((task) => task.id === id);
+
+    if (index < 0) {
+      return null;
+    }
+
+    const tasks = this.tasks.splice(index, 1);
+
+    return tasks[0];
+  }
 }
