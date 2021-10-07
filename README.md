@@ -74,25 +74,25 @@ Links:
 
 ### Data Persistence - PostgreSQL and TypeORM
 
-- [ ] Introduction to Persistence 00:29
-- [ ] Installing Docker and pgAdmin 00:21
-- [ ] Running PostgreSQL via Docker 04:02
-- [ ] Setting up pgAdmin 01:45
-- [ ] Creating a Database using pgAdmin 00:54
-- [ ] Introduction to TypeORM 02:57
-- [ ] Setting up a Database Connection 04:29
-- [ ] Creating a Task Entity 03:51
-- [ ] Active Record VS Data Mapper Patterns 03:40
-- [ ] Creating a Tasks Repository 03:33
-- [ ] Refactoring for Tasks Service 03:44
-- [ ] Persistence: Getting a Task by ID 08:33
-- [ ] Persistence: Creating a Task 07:31
-- [ ] (Challenge) Persistence: Deleting a Task 01:22
-- [ ] (Solution) Persistence: Deleting a Task 04:58
-- [ ] Persistence: Update Task Status 02:40
-- [ ] Small Change Needed 01:40
-- [ ] Persistence: Getting All Tasks 12:22
-- [ ] Section Code 00:00
+- [x] Introduction to Persistence 00:29
+- [x] Installing Docker and pgAdmin 00:21
+- [x] Running PostgreSQL via Docker 04:02
+- [x] Setting up pgAdmin 01:45
+- [x] Creating a Database using pgAdmin 00:54
+- [x] Introduction to TypeORM 02:57
+- [x] Setting up a Database Connection 04:29
+- [x] Creating a Task Entity 03:51
+- [x] Active Record VS Data Mapper Patterns 03:40
+- [x] Creating a Tasks Repository 03:33
+- [x] Refactoring for Tasks Service 03:44
+- [x] Persistence: Getting a Task by ID 08:33
+- [x] Persistence: Creating a Task 07:31
+- [x] (Challenge) Persistence: Deleting a Task 01:22
+- [x] (Solution) Persistence: Deleting a Task 04:58
+- [x] Persistence: Update Task Status 02:40
+- [x] Small Change Needed 01:40
+- [x] Persistence: Getting All Tasks 12:22
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s3-persistence) 00:00
 
 ### Auth Part 1 - Authentication
 
