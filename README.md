@@ -60,17 +60,17 @@ Links:
 - [x] Solution: Update Task Status 05:27
 - [x] Feature: Searching and Filtering 08:49
 - [x] Summary Quiz
-- [x] Section Code 00:00
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s1-task-management-app) 00:00
 
 ### Validation and Error Handling
 
 - [x] Introduction to NestJS Pipes 04:14
-- [ ] ValidationPipe: Creating a Task 04:31
-- [ ] Error Handling: Getting a non-existing Task 04:16
-- [ ] Error Handling: Deleting a non-existing Task01:09
-- [ ] Validation: Update Task Status 03:27
-- [ ] Challenge: Validating Task Filtering and Search 02:42
-- [ ] Section Code 00:00
+- [x] ValidationPipe: Creating a Task 04:31
+- [x] Error Handling: Getting a non-existing Task 04:16
+- [x] Error Handling: Deleting a non-existing Task01:09
+- [x] Validation: Update Task Status 03:27
+- [x] Challenge: Validating Task Filtering and Search 02:42
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s2-validation-and-error-handling) 00:00
 
 ### Data Persistence - PostgreSQL and TypeORM
 
