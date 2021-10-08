@@ -126,7 +126,7 @@ Links:
 
 ### THANK YOU!
 
-- [ ] THANK YOU! (+ Promotion) 01:33
+- [x] THANK YOU! (+ Promotion) 01:33
 
 ### (Bonus) Logging
 
