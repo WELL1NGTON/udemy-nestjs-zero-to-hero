@@ -114,15 +114,15 @@ Links:
 
 ### Auth Part 2 - Task Ownership and Restrictions
 
-- [ ] Tasks and Users - Database Relation 03:58
-- [ ] Make Users Own Tasks 04:36
-- [ ] Serialize User Data 03:39
-- [ ] Restricting Getting All Tasks 03:30
-- [ ] BUG FIX: Getting All Tasks 02:34
-- [ ] Restricting Getting a Task By ID 03:50
-- [ ] Restricting Status Updates 00:50
-- [ ] Restricting Deleting A Task 01:23
-- [ ] Section Code 00:00
+- [x] Tasks and Users - Database Relation 03:58
+- [x] Make Users Own Tasks 04:36
+- [x] Serialize User Data 03:39
+- [x] Restricting Getting All Tasks 03:30
+- [x] BUG FIX: Getting All Tasks 02:34
+- [x] Restricting Getting a Task By ID 03:50
+- [x] Restricting Status Updates 00:50
+- [x] Restricting Deleting A Task 01:23
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s5-auth-part-2-task-ownership) 00:00
 
 ### THANK YOU!
 
