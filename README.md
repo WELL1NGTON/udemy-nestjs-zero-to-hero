@@ -130,9 +130,9 @@ Links:
 
 ### (Bonus) Logging
 
-- [ ] Visualizar 02:53
-- [ ] Implementing Logs in our NestJS app 14:54
-- [ ] Section Code 00:00
+- [x] Visualizar 02:53
+- [x] Implementing Logs in our NestJS app 14:54
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s6-bonus-logging) 00:00
 
 ### (Bonus) Configuration Managemenet
 
