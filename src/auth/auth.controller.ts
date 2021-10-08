@@ -1,5 +1,6 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { AuthService } from './auth.service';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { AuthCredentialsDto } from './dto/auth-credentials.dto';
 
 @Controller('auth')

@@ -136,14 +136,14 @@ Links:
 
 ### (Bonus) Configuration Managemenet
 
-- [ ] Introduction to Configuration 02:10
-- [ ] Windows: Environment Variables 00:34
-- [ ] Quick Intro to Environment Variables 03:50
-- [ ] Setting up ConfigModule 09:18
-- [ ] TypeORM Configuration 09:37
-- [ ] Config Schema Validation 06:38
-- [ ] JWT Secret Configuration 04:07
-- [ ] Section Code 00:00
+- [x] Introduction to Configuration 02:10
+- [x] Windows: Environment Variables 00:34
+- [x] Quick Intro to Environment Variables 03:50
+- [x] Setting up ConfigModule 09:18
+- [x] TypeORM Configuration 09:37
+- [x] Config Schema Validation 06:38
+- [x] JWT Secret Configuration 04:07
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s7-bonus-configuration) 00:00
 
 ### (Bonus Front-end Application)
 
