@@ -147,8 +147,8 @@ Links:
 
 ### (Bonus Front-end Application)
 
-- [ ] Front-end Application 05:35
-- [ ] Section Code 00:00
+- [x] Front-end Application 05:35
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s8-bonus-frontend) 00:00
 
 ### (Bonus) Deployment
 
