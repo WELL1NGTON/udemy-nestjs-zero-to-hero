@@ -96,21 +96,21 @@ Links:
 
 ### Auth Part 1 - Authentication
 
-- [ ] Intro to Authentication and Authorization 01:11
-- [ ] Setting up AuthModule, User Entity and User Repository 05:05
-- [ ] Feature: Signing Up 08:26
-- [ ] Validation: Credentials and Password Strength 04:12
-- [ ] Error Handling: Username Conflicts 06:42
-- [ ] Securely Storing Passwords 07:22
-- [ ] Password Hashing With Bcrypt 04:25
-- [ ] Feature: Signing In 04:42
-- [ ] Intro to JSON Web Tokens (JWT) 05:54
-- [ ] Setting up the JWT Module and Passport.js 03:34
-- [ ] Signing a JWT Token on Sign In (Authentication) 07:08
-- [ ] Implementing JWT Validation 11:38
-- [ ] Custom @GetUser Decorator 03:14
-- [ ] Guarding the Tasks Routes 02:00
-- [ ] Section Code 00:00
+- [x] Intro to Authentication and Authorization 01:11
+- [x] Setting up AuthModule, User Entity and User Repository 05:05
+- [x] Feature: Signing Up 08:26
+- [x] Validation: Credentials and Password Strength 04:12
+- [x] Error Handling: Username Conflicts 06:42
+- [x] Securely Storing Passwords 07:22
+- [x] Password Hashing With Bcrypt 04:25
+- [x] Feature: Signing In 04:42
+- [x] Intro to JSON Web Tokens (JWT) 05:54
+- [x] Setting up the JWT Module and Passport.js 03:34
+- [x] Signing a JWT Token on Sign In (Authentication) 07:08
+- [x] Implementing JWT Validation 11:38
+- [x] Custom @GetUser Decorator 03:14
+- [x] Guarding the Tasks Routes 02:00
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s4-auth-part-1) 00:00
 
 ### Auth Part 2 - Task Ownership and Restrictions
 
