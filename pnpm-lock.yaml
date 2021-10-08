@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@nestjs/cli': ^8.0.0
   '@nestjs/common': ^8.0.0
+  '@nestjs/config': ^1.0.2
   '@nestjs/core': ^8.0.0
   '@nestjs/jwt': ^8.0.0
   '@nestjs/passport': ^8.0.1
@@ -26,6 +27,7 @@ specifiers:
   eslint-config-prettier: ^8.3.0
   eslint-plugin-prettier: ^3.4.0
   jest: ^27.0.6
+  joi: ^17.4.2
   passport: ^0.5.0
   passport-jwt: ^4.0.0
   pg: ^8.7.1
@@ -43,6 +45,7 @@ specifiers:
 
 dependencies:
   '@nestjs/common': 8.0.9_91e265e1bcd1545143b1cccdf5c76cbc
+  '@nestjs/config': 1.0.2_946bf8982b6f3d7b46cf0b296973a2a3
   '@nestjs/core': 8.0.9_84c72fe2d2f93cb7dc52b1203ec9d8bb
   '@nestjs/jwt': 8.0.0_@nestjs+common@8.0.9
   '@nestjs/passport': 8.0.1_e28656822cb951d3f34cb0378fecfc59
@@ -51,6 +54,7 @@ dependencies:
   bcrypt: 5.0.1
   class-transformer: 0.4.0
   class-validator: 0.13.1
+  joi: 17.4.2
   passport: 0.5.0
   passport-jwt: 4.0.0
   pg: 8.7.1
@@ -517,6 +521,16 @@ packages:
       - supports-color
     dev: true
 
+  /@hapi/hoek/9.2.1:
+    resolution: {integrity: sha512-gfta+H8aziZsm8pZa0vj04KO6biEiisppNgA1kbJvFrrWu9Vm7eaUEy76DIxsuTaWvti5fkJVhllWc6ZTE+Mdw==}
+    dev: false
+
+  /@hapi/topo/5.1.0:
+    resolution: {integrity: sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==}
+    dependencies:
+      '@hapi/hoek': 9.2.1
+    dev: false
+
   /@humanwhocodes/config-array/0.5.0:
     resolution: {integrity: sha512-FagtKFz74XrTl7y6HCzQpwDfXP0yhxe9lHLD1UZxjvZIcbyRz8zTFF/yYNfSfzU414eDwZ1SrO0Qvtyf+wFMQg==}
     engines: {node: '>=10.10.0'}
@@ -817,6 +831,24 @@ packages:
       - debug
     dev: false
 
+  /@nestjs/config/1.0.2_946bf8982b6f3d7b46cf0b296973a2a3:
+    resolution: {integrity: sha512-2q8CcI4UszJ110uDacZe09sj2EJzQztqEOvPXoYaoXoeWWMEwIovAF7cyiBpJWJS+LikpbZyHqtA6p3//mSiOg==}
+    peerDependencies:
+      '@nestjs/common': ^7.0.0 || ^8.0.0
+      reflect-metadata: ^0.1.13
+      rxjs: ^6.0.0 || ^7.2.0
+    dependencies:
+      '@nestjs/common': 8.0.9_91e265e1bcd1545143b1cccdf5c76cbc
+      dotenv: 10.0.0
+      dotenv-expand: 5.1.0
+      lodash.get: 4.4.2
+      lodash.has: 4.5.2
+      lodash.set: 4.3.2
+      reflect-metadata: 0.1.13
+      rxjs: 7.3.1
+      uuid: 8.3.2
+    dev: false
+
   /@nestjs/core/8.0.9_84c72fe2d2f93cb7dc52b1203ec9d8bb:
     resolution: {integrity: sha512-Q8bge+yuFzcuW9iY5fiMz3gydyB3D25dO9/YFGEtHexw2ipQA1QCt94XfIxGqFe1C07k5IDSK/C/l+R33CHrGg==}
     requiresBuild: true
@@ -975,6 +1007,20 @@ packages:
       chalk: 4.1.2
       consola: 2.15.3
       node-fetch: 2.6.5
+    dev: false
+
+  /@sideway/address/4.1.2:
+    resolution: {integrity: sha512-idTz8ibqWFrPU8kMirL0CoPH/A29XOzzAzpyN3zQ4kAWnzmNfFmRaoMNN6VI8ske5M73HZyhIaW4OuSFIdM4oA==}
+    dependencies:
+      '@hapi/hoek': 9.2.1
+    dev: false
+
+  /@sideway/formula/3.0.0:
+    resolution: {integrity: sha512-vHe7wZ4NOXVfkoRb8T5otiENVlT7a3IAiw7H5M2+GO+9CDgcVUUsX1zalAztCmwyOr2RUTGJdgB+ZvSVqmdHmg==}
+    dev: false
+
+  /@sideway/pinpoint/2.0.0:
+    resolution: {integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==}
     dev: false
 
   /@sinonjs/commons/1.8.3:
@@ -2347,6 +2393,15 @@ packages:
     dependencies:
       webidl-conversions: 5.0.0
     dev: true
+
+  /dotenv-expand/5.1.0:
+    resolution: {integrity: sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==}
+    dev: false
+
+  /dotenv/10.0.0:
+    resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
+    engines: {node: '>=10'}
+    dev: false
 
   /dotenv/8.6.0:
     resolution: {integrity: sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==}
@@ -3821,6 +3876,16 @@ packages:
       - utf-8-validate
     dev: true
 
+  /joi/17.4.2:
+    resolution: {integrity: sha512-Lm56PP+n0+Z2A2rfRvsfWVDXGEWjXxatPopkQ8qQ5mxCEhwHG+Ettgg5o98FFaxilOxozoa14cFhrE/hOzh/Nw==}
+    dependencies:
+      '@hapi/hoek': 9.2.1
+      '@hapi/topo': 5.1.0
+      '@sideway/address': 4.1.2
+      '@sideway/formula': 3.0.0
+      '@sideway/pinpoint': 2.0.0
+    dev: false
+
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: true
@@ -4016,6 +4081,14 @@ packages:
     resolution: {integrity: sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=}
     dev: true
 
+  /lodash.get/4.4.2:
+    resolution: {integrity: sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=}
+    dev: false
+
+  /lodash.has/4.5.2:
+    resolution: {integrity: sha1-0Z9NwQlQWMzL4rDN9O4P5Ko3yGI=}
+    dev: false
+
   /lodash.includes/4.3.0:
     resolution: {integrity: sha1-YLuYqHy5I8aMoeUTJUgzFISfVT8=}
     dev: false
@@ -4046,6 +4119,10 @@ packages:
 
   /lodash.once/4.1.1:
     resolution: {integrity: sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=}
+    dev: false
+
+  /lodash.set/4.3.2:
+    resolution: {integrity: sha1-2HV7HagH3eJIFrDWqEvqGnYjCyM=}
     dev: false
 
   /lodash.truncate/4.4.2:
