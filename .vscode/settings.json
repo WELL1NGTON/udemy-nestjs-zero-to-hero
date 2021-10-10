@@ -17,6 +17,6 @@
     "**/.hg/store/**": true
   },
   "[markdown]": {
-    "editor.wordWrap": "off"
+    "editor.wordWrap": "on"
   }
 }

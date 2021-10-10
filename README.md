@@ -189,6 +189,7 @@ Links:
 - [ ] LessonService and createLesson method 08:05
 - [ ] Create Lesson GraphQL Mutation 05:01
 - [ ] getLesson GraphQL Query with MongoDB 03:40
+  - Observação: nessa lição tive que reinstar o pacote npm "mongodb" utilizando a versão 3 devido a uma incompatibilidade da versão mais nova com o typeorm, conforme é explicado nesse [issue](https://github.com/typeorm/typeorm/issues/8146) do typeorm (`pnpm add mongodb@3`)
 - [ ] Validation: Create Lesson Input 07:15
 - [ ] Challenge: Get All Lessons GraphQL Query 04:07
 - [ ] Creating the Student Module 01:44
@@ -200,6 +201,9 @@ Links:
 - [ ] Improvement: Assign Students Upon Lesson Creation 03:14
 - [ ] Resolve "students" Field in Lesson 08:13
 - [ ] Additional Resources: GraphQL 00:02
+  - [GitHub Repository](https://github.com/arielweinberger/nestjs-course-gql-mongodb)
+  - [NestJS Documentation - GraphQL Section](https://docs.nestjs.com/graphql/quick-start)
+  - [Introduction to GraphQL (Official)](https://graphql.org/learn/)
 - [ ] Section Code 00:00
 
 ## README Gerado pelo NestJS
