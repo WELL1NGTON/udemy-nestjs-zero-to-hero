@@ -22,6 +22,10 @@ Links:
 - [Linkedin](https://linkedin.com/in/arielweinberger)
 - [YouTube](https://www.youtube.com/channel/UCrF9BwgEUI74FTOnEflu4wA)
 
+## Certificado
+
+[![Certificado Udemy](images/UC-c6f23017-8bf1-4817-a015-f6c13311c7e6.jpg)](http://ude.my/UC-c6f23017-8bf1-4817-a015-f6c13311c7e6)
+
 ## Progresso do curso
 
 13 seções • 136 aulas • Duração total: 8h 44m
@@ -173,38 +177,38 @@ Links:
 
 ### GraphQL + MongoDB
 
-- [ ] GraphQL + MongoDB: Section Introduction 01:05
-- [ ] Project Overview: School Management 02:38
-- [ ] MongoDB Installation 00:13
-- [ ] Robo 3T - Connecting to the MongoDB Database 01:14
-- [ ] Project setup 02:04
-- [ ] Ensure NestJS 7 Installation 00:54
-- [ ] Installing GraphQL Dependencies 03:02
-- [ ] IMPORTANT! GraphQL installation version00:17
-- [ ] Creating the Lesson Module 01:26
-- [ ] Defining the Lesson GraphQL Type 03:13
-- [ ] Creating the Lesson Resolver 04:03
-- [ ] Using the GraphQL Playground 03:44
-- [ ] Persistence: TypeORM, MongoDB and our Lesson Entity 06:33
-- [ ] LessonService and createLesson method 08:05
-- [ ] Create Lesson GraphQL Mutation 05:01
-- [ ] getLesson GraphQL Query with MongoDB 03:40
+- [x] GraphQL + MongoDB: Section Introduction 01:05
+- [x] Project Overview: School Management 02:38
+- [x] MongoDB Installation 00:13
+- [x] Robo 3T - Connecting to the MongoDB Database 01:14
+- [x] Project setup 02:04
+- [x] Ensure NestJS 7 Installation 00:54
+- [x] Installing GraphQL Dependencies 03:02
+- [x] IMPORTANT! GraphQL installation version00:17
+- [x] Creating the Lesson Module 01:26
+- [x] Defining the Lesson GraphQL Type 03:13
+- [x] Creating the Lesson Resolver 04:03
+- [x] Using the GraphQL Playground 03:44
+- [x] Persistence: TypeORM, MongoDB and our Lesson Entity 06:33
+- [x] LessonService and createLesson method 08:05
+- [x] Create Lesson GraphQL Mutation 05:01
+- [x] getLesson GraphQL Query with MongoDB 03:40
   - Observação: nessa lição tive que reinstar o pacote npm "mongodb" utilizando a versão 3 devido a uma incompatibilidade da versão mais nova com o typeorm, conforme é explicado nesse [issue](https://github.com/typeorm/typeorm/issues/8146) do typeorm (`pnpm add mongodb@3`)
-- [ ] Validation: Create Lesson Input 07:15
-- [ ] Challenge: Get All Lessons GraphQL Query 04:07
-- [ ] Creating the Student Module 01:44
-- [ ] Challenge: Defining the Student Entity 02:53
-- [ ] Challenge: Create Student Mutation 10:28
-- [ ] Challenge: Get All Students GraphQL Query 02:37
-- [ ] Challenge: Get Student by ID Query 02:44
-- [ ] Assign Students To Lesson GraphQL Mutation 10:26
-- [ ] Improvement: Assign Students Upon Lesson Creation 03:14
-- [ ] Resolve "students" Field in Lesson 08:13
-- [ ] Additional Resources: GraphQL 00:02
+- [x] Validation: Create Lesson Input 07:15
+- [x] Challenge: Get All Lessons GraphQL Query 04:07
+- [x] Creating the Student Module 01:44
+- [x] Challenge: Defining the Student Entity 02:53
+- [x] Challenge: Create Student Mutation 10:28
+- [x] Challenge: Get All Students GraphQL Query 02:37
+- [x] Challenge: Get Student by ID Query 02:44
+- [x] Assign Students To Lesson GraphQL Mutation 10:26
+- [x] Improvement: Assign Students Upon Lesson Creation 03:14
+- [x] Resolve "students" Field in Lesson 08:13
+- [x] Additional Resources: GraphQL 00:02
   - [GitHub Repository](https://github.com/arielweinberger/nestjs-course-gql-mongodb)
   - [NestJS Documentation - GraphQL Section](https://docs.nestjs.com/graphql/quick-start)
   - [Introduction to GraphQL (Official)](https://graphql.org/learn/)
-- [ ] Section Code 00:00
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-gql-mongodb) 00:00
 
 ## README Gerado pelo NestJS
 
