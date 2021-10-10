@@ -152,15 +152,15 @@ Links:
 
 ### (Bonus) Deployment
 
-- [ ] DISCLAIMER: Potential Costs 00:18
-- [ ] Signing up to Heroku 01:06
-- [ ] Creating a Heroku Application 00:58
-- [ ] Installing the the Heroku CLI 01:11
-- [ ] Postgres on Heroku 02:59
-- [ ] Changes in our NestJS App 05:11
-- [ ] Deploying NestJS to Heroku 09:48
-- [ ] Deploying Front-end to GitHub Pages 08:20
-- [ ] Section Code 00:00
+- [x] DISCLAIMER: Potential Costs 00:18
+- [x] Signing up to Heroku 01:06
+- [x] Creating a Heroku Application 00:58
+- [x] Installing the the Heroku CLI 01:11
+- [x] Postgres on Heroku 02:59
+- [x] Changes in our NestJS App 05:11
+- [x] [Deploying NestJS to Heroku](https://task-management-wellington.herokuapp.com/) 09:48
+- [x] [Deploying Front-end to GitHub Pages](https://well1ngton.github.io/task-management-frontend/index.html) 08:20
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s9-deployment) 00:00
 
 ### (Bonus) Unit Testing
 
