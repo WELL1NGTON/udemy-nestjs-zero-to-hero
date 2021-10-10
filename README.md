@@ -164,12 +164,12 @@ Links:
 
 ### (Bonus) Unit Testing
 
-- [ ] Unit Testing Crash Course: Basics 01:46
-- [ ] Unit Testing Crash Course: First Tests 06:38
-- [ ] IMPORTANT: Fixing import paths 01:36
-- [ ] Testing TasksService - Part 1 18:43
-- [ ] Testing TasksService - Part 2 07:29
-- [ ] Section Code 00:00
+- [x] Unit Testing Crash Course: Basics 01:46
+- [x] Unit Testing Crash Course: First Tests 06:38
+- [x] IMPORTANT: Fixing import paths 01:36
+- [x] Testing TasksService - Part 1 18:43
+- [x] Testing TasksService - Part 2 07:29
+- [x] [Section Code](https://github.com/arielweinberger/nestjs-course-task-management/tree/s10-testing) 00:00
 
 ### GraphQL + MongoDB
 
